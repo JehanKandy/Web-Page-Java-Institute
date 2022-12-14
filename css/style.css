@@ -1,0 +1,57 @@
+.home-img {
+    background-image: url("../images/background.jpeg");
+    background-size: 100%;
+    background-position-y: -123px;
+    background-size: cover;
+}
+
+.nav-bar-car {
+    display: inline;
+}
+
+.nav-bar-car .car-logo {
+    width: 115px;
+    margin-top: 14px;
+    margin-left: 40px;
+}
+
+.nav-bar-car .list1 {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    margin-top: -16px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-bar-car .list2 {
+    list-style-type: none;
+    margin-left: 1420px;
+    padding: 0;
+    margin-top: -32px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-bar-car .list1 .item {
+    display: inline;
+    color: white;
+    margin-right: 23px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gotham', sans-serif;
+}
+
+.nav-bar-car .list2 .item {
+    display: inline;
+    color: white;
+    margin-right: 23px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Gotham', sans-serif;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url('../fonts/Gotham.woff2');
+}
